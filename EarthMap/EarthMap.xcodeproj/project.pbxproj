@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181BF15E1E8C6A5B00E7423B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF15D1E8C6A5B00E7423B /* CustomCell.swift */; };
+		189CFEED1E8C8EA400777700 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFEEC1E8C8EA400777700 /* CustomAnnotation.swift */; };
+		18F148D51E8B9F3000207C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F148D41E8B9F3000207C60 /* AppDelegate.swift */; };
+		18F148D71E8B9F3000207C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F148D61E8B9F3000207C60 /* ViewController.swift */; };
+		18F148DA1E8B9F3000207C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F148D81E8B9F3000207C60 /* Main.storyboard */; };
+		18F148DD1E8B9F3000207C60 /* EarthMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F148DB1E8B9F3000207C60 /* EarthMap.xcdatamodeld */; };
+		18F148DF1E8B9F3000207C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F148DE1E8B9F3000207C60 /* Assets.xcassets */; };
+		18F148E21E8B9F3000207C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F148E01E8B9F3000207C60 /* LaunchScreen.storyboard */; };
+		18F148ED1E8B9F3000207C60 /* EarthMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F148EC1E8B9F3000207C60 /* EarthMapTests.swift */; };
+		18F148F81E8B9F3000207C60 /* EarthMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F148F71E8B9F3000207C60 /* EarthMapUITests.swift */; };
+		18F149071E8BA17400207C60 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F149061E8BA17400207C60 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F148E91E8B9F3000207C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F148C91E8B9F3000207C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F148D01E8B9F3000207C60;
+			remoteInfo = EarthMap;
+		};
+		18F148F41E8B9F3000207C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F148C91E8B9F3000207C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F148D01E8B9F3000207C60;
+			remoteInfo = EarthMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181BF15D1E8C6A5B00E7423B /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		189CFEEC1E8C8EA400777700 /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		18F148D11E8B9F3000207C60 /* EarthMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F148D41E8B9F3000207C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F148D61E8B9F3000207C60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F148D91E8B9F3000207C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F148DC1E8B9F3000207C60 /* EarthMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarthMap.xcdatamodel; sourceTree = "<group>"; };
+		18F148DE1E8B9F3000207C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F148E11E8B9F3000207C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F148E31E8B9F3000207C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F148E81E8B9F3000207C60 /* EarthMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F148EC1E8B9F3000207C60 /* EarthMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthMapTests.swift; sourceTree = "<group>"; };
+		18F148EE1E8B9F3000207C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F148F31E8B9F3000207C60 /* EarthMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F148F71E8B9F3000207C60 /* EarthMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthMapUITests.swift; sourceTree = "<group>"; };
+		18F148F91E8B9F3000207C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F149061E8BA17400207C60 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F148CE1E8B9F3000207C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F149071E8BA17400207C60 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F148E51E8B9F3000207C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F148F01E8B9F3000207C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F148C81E8B9F3000207C60 = {
+			isa = PBXGroup;
+			children = (
+				18F148D31E8B9F3000207C60 /* EarthMap */,
+				18F148EB1E8B9F3000207C60 /* EarthMapTests */,
+				18F148F61E8B9F3000207C60 /* EarthMapUITests */,
+				18F148D21E8B9F3000207C60 /* Products */,
+				18F149051E8BA17400207C60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18F148D21E8B9F3000207C60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F148D11E8B9F3000207C60 /* EarthMap.app */,
+				18F148E81E8B9F3000207C60 /* EarthMapTests.xctest */,
+				18F148F31E8B9F3000207C60 /* EarthMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F148D31E8B9F3000207C60 /* EarthMap */ = {
+			isa = PBXGroup;
+			children = (
+				18F148D41E8B9F3000207C60 /* AppDelegate.swift */,
+				18F148D61E8B9F3000207C60 /* ViewController.swift */,
+				18F148D81E8B9F3000207C60 /* Main.storyboard */,
+				181BF15D1E8C6A5B00E7423B /* CustomCell.swift */,
+				189CFEEC1E8C8EA400777700 /* CustomAnnotation.swift */,
+				18F148DE1E8B9F3000207C60 /* Assets.xcassets */,
+				18F148E01E8B9F3000207C60 /* LaunchScreen.storyboard */,
+				18F148E31E8B9F3000207C60 /* Info.plist */,
+				18F148DB1E8B9F3000207C60 /* EarthMap.xcdatamodeld */,
+			);
+			path = EarthMap;
+			sourceTree = "<group>";
+		};
+		18F148EB1E8B9F3000207C60 /* EarthMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F148EC1E8B9F3000207C60 /* EarthMapTests.swift */,
+				18F148EE1E8B9F3000207C60 /* Info.plist */,
+			);
+			path = EarthMapTests;
+			sourceTree = "<group>";
+		};
+		18F148F61E8B9F3000207C60 /* EarthMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F148F71E8B9F3000207C60 /* EarthMapUITests.swift */,
+				18F148F91E8B9F3000207C60 /* Info.plist */,
+			);
+			path = EarthMapUITests;
+			sourceTree = "<group>";
+		};
+		18F149051E8BA17400207C60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18F149061E8BA17400207C60 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F148D01E8B9F3000207C60 /* EarthMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F148FC1E8B9F3000207C60 /* Build configuration list for PBXNativeTarget "EarthMap" */;
+			buildPhases = (
+				18F148CD1E8B9F3000207C60 /* Sources */,
+				18F148CE1E8B9F3000207C60 /* Frameworks */,
+				18F148CF1E8B9F3000207C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthMap;
+			productName = EarthMap;
+			productReference = 18F148D11E8B9F3000207C60 /* EarthMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F148E71E8B9F3000207C60 /* EarthMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F148FF1E8B9F3000207C60 /* Build configuration list for PBXNativeTarget "EarthMapTests" */;
+			buildPhases = (
+				18F148E41E8B9F3000207C60 /* Sources */,
+				18F148E51E8B9F3000207C60 /* Frameworks */,
+				18F148E61E8B9F3000207C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F148EA1E8B9F3000207C60 /* PBXTargetDependency */,
+			);
+			name = EarthMapTests;
+			productName = EarthMapTests;
+			productReference = 18F148E81E8B9F3000207C60 /* EarthMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F148F21E8B9F3000207C60 /* EarthMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F149021E8B9F3000207C60 /* Build configuration list for PBXNativeTarget "EarthMapUITests" */;
+			buildPhases = (
+				18F148EF1E8B9F3000207C60 /* Sources */,
+				18F148F01E8B9F3000207C60 /* Frameworks */,
+				18F148F11E8B9F3000207C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F148F51E8B9F3000207C60 /* PBXTargetDependency */,
+			);
+			name = EarthMapUITests;
+			productName = EarthMapUITests;
+			productReference = 18F148F31E8B9F3000207C60 /* EarthMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F148C91E8B9F3000207C60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bekbolat;
+				TargetAttributes = {
+					18F148D01E8B9F3000207C60 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R3NS647GT9;
+						ProvisioningStyle = Automatic;
+					};
+					18F148E71E8B9F3000207C60 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F148D01E8B9F3000207C60;
+					};
+					18F148F21E8B9F3000207C60 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F148D01E8B9F3000207C60;
+					};
+				};
+			};
+			buildConfigurationList = 18F148CC1E8B9F3000207C60 /* Build configuration list for PBXProject "EarthMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F148C81E8B9F3000207C60;
+			productRefGroup = 18F148D21E8B9F3000207C60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F148D01E8B9F3000207C60 /* EarthMap */,
+				18F148E71E8B9F3000207C60 /* EarthMapTests */,
+				18F148F21E8B9F3000207C60 /* EarthMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F148CF1E8B9F3000207C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F148E21E8B9F3000207C60 /* LaunchScreen.storyboard in Resources */,
+				18F148DF1E8B9F3000207C60 /* Assets.xcassets in Resources */,
+				18F148DA1E8B9F3000207C60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F148E61E8B9F3000207C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F148F11E8B9F3000207C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F148CD1E8B9F3000207C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F148D71E8B9F3000207C60 /* ViewController.swift in Sources */,
+				181BF15E1E8C6A5B00E7423B /* CustomCell.swift in Sources */,
+				18F148D51E8B9F3000207C60 /* AppDelegate.swift in Sources */,
+				18F148DD1E8B9F3000207C60 /* EarthMap.xcdatamodeld in Sources */,
+				189CFEED1E8C8EA400777700 /* CustomAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F148E41E8B9F3000207C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F148ED1E8B9F3000207C60 /* EarthMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F148EF1E8B9F3000207C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F148F81E8B9F3000207C60 /* EarthMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F148EA1E8B9F3000207C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F148D01E8B9F3000207C60 /* EarthMap */;
+			targetProxy = 18F148E91E8B9F3000207C60 /* PBXContainerItemProxy */;
+		};
+		18F148F51E8B9F3000207C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F148D01E8B9F3000207C60 /* EarthMap */;
+			targetProxy = 18F148F41E8B9F3000207C60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F148D81E8B9F3000207C60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F148D91E8B9F3000207C60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F148E01E8B9F3000207C60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F148E11E8B9F3000207C60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F148FA1E8B9F3000207C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F148FB1E8B9F3000207C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F148FD1E8B9F3000207C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R3NS647GT9;
+				INFOPLIST_FILE = EarthMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.EarthMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18F148FE1E8B9F3000207C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R3NS647GT9;
+				INFOPLIST_FILE = EarthMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.EarthMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18F149001E8B9F3000207C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarthMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.EarthMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthMap.app/EarthMap";
+			};
+			name = Debug;
+		};
+		18F149011E8B9F3000207C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarthMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.EarthMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthMap.app/EarthMap";
+			};
+			name = Release;
+		};
+		18F149031E8B9F3000207C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EarthMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.EarthMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EarthMap;
+			};
+			name = Debug;
+		};
+		18F149041E8B9F3000207C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EarthMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.EarthMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EarthMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F148CC1E8B9F3000207C60 /* Build configuration list for PBXProject "EarthMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F148FA1E8B9F3000207C60 /* Debug */,
+				18F148FB1E8B9F3000207C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F148FC1E8B9F3000207C60 /* Build configuration list for PBXNativeTarget "EarthMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F148FD1E8B9F3000207C60 /* Debug */,
+				18F148FE1E8B9F3000207C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F148FF1E8B9F3000207C60 /* Build configuration list for PBXNativeTarget "EarthMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F149001E8B9F3000207C60 /* Debug */,
+				18F149011E8B9F3000207C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F149021E8B9F3000207C60 /* Build configuration list for PBXNativeTarget "EarthMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F149031E8B9F3000207C60 /* Debug */,
+				18F149041E8B9F3000207C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18F148DB1E8B9F3000207C60 /* EarthMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18F148DC1E8B9F3000207C60 /* EarthMap.xcdatamodel */,
+			);
+			currentVersion = 18F148DC1E8B9F3000207C60 /* EarthMap.xcdatamodel */;
+			path = EarthMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18F148C91E8B9F3000207C60 /* Project object */;
+}
